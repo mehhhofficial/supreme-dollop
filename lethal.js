@@ -11,7 +11,7 @@ let wispURL = null; // Not exported because it needs to be set through `setWisp`
 let transportURL = null; // Not exported because it needs to be set through `setTransport`
 
 // Service Worker for Ultraviolet
-const stockSW = "./ultraworker.js";
+const stockSW = "https://cdn.jsdelivr.net/gh/mehhhofficial/supreme-dollop@latest/ultraworker.js";
 const swAllowedHostnames = ["localhost", "127.0.0.1"];
 async function registerSW() {
     if (!navigator.serviceWorker) {
@@ -108,3 +108,4 @@ export async function getProxied(input) {
     return viewUrl;
 
 }
+
