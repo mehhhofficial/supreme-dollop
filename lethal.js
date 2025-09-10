@@ -1,7 +1,7 @@
 // Ultraviolet
 await import('https://cdn.jsdelivr.net/npm/@titaniumnetwork-dev/ultraviolet/dist/uv.bundle.js');
 // UV Config
-await import('./uv.config.js');
+await import('https://cdn.jsdelivr.net/gh/mehhhofficial/supreme-dollop@latest/uv.config.js');
 // Bare Mux
 import * as BareMux from 'https://cdn.jsdelivr.net/npm/@mercuryworkshop/bare-mux/dist/index.mjs';
 
@@ -106,4 +106,5 @@ export async function getProxied(input) {
     let viewUrl = __uv$config.prefix + __uv$config.encodeUrl(url);
 
     return viewUrl;
+
 }
